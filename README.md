@@ -17,10 +17,7 @@ To control the brightness of an LED using a Potentiometer and PWM (Pulse Width M
 - Jumper Wires
 
 # Circuit Diagram
-
----
-To upload
----
+<img width="1420" height="606" alt="Screenshot 2026-09-23 095420" src="https://github.com/user-attachments/assets/8f230a5c-985f-4ab1-8723-047ad3d9d5e3" />
 
 # Procedure
 
@@ -68,13 +65,24 @@ To upload
 3. Record the observations.
 
 # Program
+```
+int potPin = A0;
+int ledPin = 9;
 
----
-To upload
----
+void setup() {
+  pinMode(ledPin, OUTPUT);
+}
 
+void loop() {
+  int potValue = analogRead(potPin);
+
+  int brightness = map(potValue, 0, 1023, 0, 255);
+
+  analogWrite(ledPin, brightness);
+}
+```
 # Observation
-
+<img width="997" height="1600" alt="WhatsApp Image 2026-09-23 at 12 31 12" src="https://github.com/user-attachments/assets/f23d044e-4326-4b9c-9c17-dc2e52ffeb90" />
 
 # Result
 
