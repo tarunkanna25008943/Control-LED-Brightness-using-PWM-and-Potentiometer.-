@@ -17,7 +17,9 @@ To control the brightness of an LED using a Potentiometer and PWM (Pulse Width M
 - Jumper Wires
 
 # Circuit Diagram
-<img width="1420" height="606" alt="Screenshot 2026-09-23 095420" src="https://github.com/user-attachments/assets/8f230a5c-985f-4ab1-8723-047ad3d9d5e3" />
+
+<img width="1425" height="599" alt="Screenshot 2026-09-23 103929" src="https://github.com/user-attachments/assets/e4dd16e2-3a75-4c1b-a821-2c8a4e67fec6" />
+
 
 # Procedure
 
